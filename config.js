@@ -2,9 +2,9 @@
 window.RESEARCH_CONFIG = {
   researcher: "Vighnesh Shetty",
   institution: "KEDGE Business School",
-  contactEmail: "REPLACE_WITH_UNIVERSITY_APPROVED_EMAIL",
-  retentionPeriod: "REPLACE_WITH_APPROVED_RETENTION_PERIOD",
-  controller: "REPLACE_WITH_APPROVED_DATA_CONTROLLER",
-  privacyContact: "REPLACE_WITH_APPROVED_PRIVACY_CONTACT",
+  contactEmail: "vighneshdhanraj.shetty@kedgebs.com",
+  retentionPeriod: "12 months",
+  controller: "Vighnesh Shetty",
+  privacyContact: "Vighneh Shetty",
   version: "1.0-2026-11"
 };
