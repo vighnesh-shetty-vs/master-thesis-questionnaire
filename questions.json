@@ -1,0 +1,680 @@
+{
+  "en": [
+    {
+      "id": "Q01",
+      "question": "Which best describes your role?",
+      "kind": "single",
+      "options": [
+        "Founder / co-founder",
+        "Executive / senior management",
+        "Manager / team lead",
+        "Data / AI / IT specialist",
+        "Finance / marketing / operations professional",
+        "Consultant / advisor",
+        "Other",
+        "Prefer not to say"
+      ],
+      "required": true,
+      "section": "Profile"
+    },
+    {
+      "id": "Q02",
+      "question": "Where do you primarily work?",
+      "kind": "single",
+      "options": [
+        "France",
+        "Other EU/EEA country",
+        "United Kingdom",
+        "Outside Europe",
+        "Prefer not to say"
+      ],
+      "required": true,
+      "section": "Profile"
+    },
+    {
+      "id": "Q03",
+      "question": "Organization size",
+      "kind": "single",
+      "options": [
+        "1–9 employees",
+        "10–49",
+        "50–249",
+        "250+",
+        "Not sure",
+        "Prefer not to say"
+      ],
+      "required": true,
+      "section": "Profile"
+    },
+    {
+      "id": "Q04",
+      "question": "Main industry",
+      "kind": "single",
+      "options": [
+        "Technology / software",
+        "Finance / insurance",
+        "Manufacturing / logistics",
+        "Retail / e-commerce",
+        "Professional services",
+        "Health / life sciences",
+        "Other",
+        "Prefer not to say"
+      ],
+      "required": false,
+      "section": "Profile"
+    },
+    {
+      "id": "Q05",
+      "question": "How often do you personally use AI tools at work?",
+      "kind": "single",
+      "options": [
+        "Daily",
+        "Weekly",
+        "Monthly",
+        "Rarely",
+        "Never",
+        "Not sure"
+      ],
+      "required": true,
+      "section": "Profile"
+    },
+    {
+      "id": "Q06",
+      "question": "Which types of AI have you encountered? (Select all that apply)",
+      "kind": "multi",
+      "options": [
+        "Generative AI assistants (e.g., chatbots)",
+        "Predictive / forecasting models",
+        "Recommendation / personalization systems",
+        "Natural-language / sentiment analysis",
+        "Process automation with AI",
+        "AI-enabled analytics dashboards",
+        "None",
+        "Not sure"
+      ],
+      "required": false,
+      "section": "Profile"
+    },
+    {
+      "id": "Q07",
+      "question": "Which business activities involve AI? (Select all that apply)",
+      "kind": "multi",
+      "options": [
+        "Operational planning / resource allocation",
+        "Financial planning / risk assessment",
+        "Marketing / customer insights",
+        "Strategic planning / market expansion",
+        "Human resources",
+        "Compliance / governance",
+        "No organizational AI use known",
+        "Other"
+      ],
+      "required": false,
+      "section": "Profile"
+    },
+    {
+      "id": "Q08",
+      "question": "How often does AI-derived information influence a business decision you participate in?",
+      "kind": "single",
+      "options": [
+        "Very often",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Never",
+        "Not applicable / not sure"
+      ],
+      "required": true,
+      "section": "Decision"
+    },
+    {
+      "id": "Q09",
+      "question": "What role does AI usually play in decisions?",
+      "kind": "single",
+      "options": [
+        "Supplies information only",
+        "Suggests options; human decides",
+        "Recommendation normally followed with checks",
+        "Decision is mostly automated",
+        "Not applicable / not sure"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q10",
+      "question": "AI has improved the quality of decisions in my area.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q11",
+      "question": "AI has improved operational efficiency or monitoring in my area.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q12",
+      "question": "AI has helped with financial / risk / resource decisions.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q13",
+      "question": "AI has helped with strategic or market-growth decisions.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q14",
+      "question": "I understand enough about the AI output to challenge it.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q15",
+      "question": "Our organization’s data are reliable enough to support AI-based advice.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q16",
+      "question": "When an AI recommendation conflicts with your judgment, what usually happens?",
+      "kind": "single",
+      "options": [
+        "I usually follow AI",
+        "I compare evidence and decide case-by-case",
+        "I usually follow my own judgment",
+        "I seek another person / source",
+        "No such conflict experienced",
+        "Not applicable"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q17",
+      "question": "How are important AI recommendations verified?",
+      "kind": "single",
+      "options": [
+        "Independently checked systematically",
+        "Sometimes checked",
+        "Rarely checked",
+        "Not checked",
+        "Not applicable / not sure"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q18",
+      "question": "Main barriers or risks? (Select all that apply)",
+      "kind": "multi",
+      "options": [
+        "Data quality / integration",
+        "Insufficient skills or time",
+        "Cost / resources",
+        "Explainability / lack of trust",
+        "Privacy / security",
+        "Regulatory or contractual constraints",
+        "Organizational resistance",
+        "No major barriers",
+        "Other"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q19",
+      "question": "Compared with before AI, how much do you rely on personal intuition?",
+      "kind": "single",
+      "options": [
+        "Much less",
+        "Somewhat less",
+        "About the same",
+        "Somewhat more",
+        "Much more",
+        "Not applicable / cannot compare"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q20",
+      "question": "Describe one decision where AI advice helped, changed, or challenged a human decision. What happened? (Optional; no names or sensitive data)",
+      "kind": "long",
+      "options": [],
+      "required": false,
+      "section": "Open"
+    },
+    {
+      "id": "Q21",
+      "question": "Can you share a case when you ignored, overruled, or questioned AI advice? Why? (Optional)",
+      "kind": "long",
+      "options": [],
+      "required": false,
+      "section": "Open"
+    },
+    {
+      "id": "Q22",
+      "question": "What would make AI advice more useful and trustworthy in your organization? (Optional)",
+      "kind": "long",
+      "options": [],
+      "required": false,
+      "section": "Open"
+    },
+    {
+      "id": "Q23",
+      "question": "Any other perspective, concern, or idea relevant to AI and business decisions? (Optional)",
+      "kind": "long",
+      "options": [],
+      "required": false,
+      "section": "Open"
+    },
+    {
+      "id": "Q24",
+      "question": "Would you be open to a voluntary follow-up interview? A separate contact link appears after submission.",
+      "kind": "single",
+      "options": [
+        "Yes — show me the contact link",
+        "Possibly, I will decide later",
+        "No, thank you"
+      ],
+      "required": false,
+      "section": "Open"
+    }
+  ],
+  "fr": [
+    {
+      "id": "Q01",
+      "question": "Quel est votre rôle principal ?",
+      "kind": "single",
+      "options": [
+        "Fondateur / cofondateur",
+        "Direction générale / cadre dirigeant",
+        "Manager / responsable d’équipe",
+        "Spécialiste données / IA / informatique",
+        "Professionnel finance / marketing / opérations",
+        "Consultant / conseiller",
+        "Autre",
+        "Préfère ne pas répondre"
+      ],
+      "required": true,
+      "section": "Profile"
+    },
+    {
+      "id": "Q02",
+      "question": "Où travaillez-vous principalement ?",
+      "kind": "single",
+      "options": [
+        "France",
+        "Autre pays UE/EEE",
+        "Royaume-Uni",
+        "Hors Europe",
+        "Préfère ne pas répondre"
+      ],
+      "required": true,
+      "section": "Profile"
+    },
+    {
+      "id": "Q03",
+      "question": "Taille de l’organisation",
+      "kind": "single",
+      "options": [
+        "1–9 salariés",
+        "10–49",
+        "50–249",
+        "250 et plus",
+        "Ne sait pas",
+        "Préfère ne pas répondre"
+      ],
+      "required": true,
+      "section": "Profile"
+    },
+    {
+      "id": "Q04",
+      "question": "Secteur principal",
+      "kind": "single",
+      "options": [
+        "Technologie / logiciels",
+        "Finance / assurance",
+        "Industrie / logistique",
+        "Commerce / e-commerce",
+        "Services professionnels",
+        "Santé / sciences de la vie",
+        "Autre",
+        "Préfère ne pas répondre"
+      ],
+      "required": false,
+      "section": "Profile"
+    },
+    {
+      "id": "Q05",
+      "question": "À quelle fréquence utilisez-vous personnellement l’IA au travail ?",
+      "kind": "single",
+      "options": [
+        "Tous les jours",
+        "Chaque semaine",
+        "Chaque mois",
+        "Rarement",
+        "Jamais",
+        "Ne sait pas"
+      ],
+      "required": true,
+      "section": "Profile"
+    },
+    {
+      "id": "Q06",
+      "question": "Quels types d’IA connaissez-vous dans votre activité ? (Plusieurs choix possibles)",
+      "kind": "multi",
+      "options": [
+        "Assistants génératifs (ex. agents conversationnels)",
+        "Modèles prédictifs / prévisions",
+        "Recommandation / personnalisation",
+        "Analyse de texte / sentiments",
+        "Automatisation de processus par l’IA",
+        "Tableaux de bord analytiques avec IA",
+        "Aucun",
+        "Ne sait pas"
+      ],
+      "required": false,
+      "section": "Profile"
+    },
+    {
+      "id": "Q07",
+      "question": "Dans quelles activités votre organisation utilise-t-elle l’IA ?",
+      "kind": "multi",
+      "options": [
+        "Planification opérationnelle / allocation des ressources",
+        "Planification financière / évaluation des risques",
+        "Marketing / connaissance client",
+        "Stratégie / développement de marché",
+        "Ressources humaines",
+        "Conformité / gouvernance",
+        "Aucun usage connu",
+        "Autre"
+      ],
+      "required": false,
+      "section": "Profile"
+    },
+    {
+      "id": "Q08",
+      "question": "À quelle fréquence une analyse issue de l’IA influence-t-elle une décision à laquelle vous participez ?",
+      "kind": "single",
+      "options": [
+        "Très souvent",
+        "Souvent",
+        "Parfois",
+        "Rarement",
+        "Jamais",
+        "Sans objet / ne sait pas"
+      ],
+      "required": true,
+      "section": "Decision"
+    },
+    {
+      "id": "Q09",
+      "question": "Quel rôle l’IA joue-t-elle habituellement ?",
+      "kind": "single",
+      "options": [
+        "Fournit seulement des informations",
+        "Propose des options ; l’humain décide",
+        "Conseil généralement suivi après vérification",
+        "Décision largement automatisée",
+        "Sans objet / ne sait pas"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q10",
+      "question": "L’IA a amélioré la qualité des décisions dans mon domaine.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q11",
+      "question": "L’IA a amélioré l’efficacité ou le suivi des opérations.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q12",
+      "question": "L’IA a aidé les décisions financières, de risques ou de ressources.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q13",
+      "question": "L’IA a aidé les décisions stratégiques ou de croissance.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q14",
+      "question": "Je comprends suffisamment les résultats de l’IA pour les remettre en question.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q15",
+      "question": "Les données de mon organisation sont assez fiables pour conseiller les décisions via l’IA.",
+      "kind": "scale",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Not applicable / Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q16",
+      "question": "Quand une recommandation IA contredit votre jugement, que faites-vous généralement ?",
+      "kind": "single",
+      "options": [
+        "Je suis généralement l’IA",
+        "Je compare les éléments et tranche au cas par cas",
+        "Je suis généralement mon propre jugement",
+        "Je consulte une autre personne / source",
+        "Aucun conflit rencontré",
+        "Sans objet"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q17",
+      "question": "Comment vérifiez-vous les recommandations importantes de l’IA ?",
+      "kind": "single",
+      "options": [
+        "Vérification indépendante systématique",
+        "Vérification occasionnelle",
+        "Vérification rare",
+        "Aucune vérification",
+        "Sans objet / ne sait pas"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q18",
+      "question": "Principaux freins ou risques ? (Plusieurs choix possibles)",
+      "kind": "multi",
+      "options": [
+        "Qualité / intégration des données",
+        "Compétences ou temps insuffisants",
+        "Coût / ressources",
+        "Explicabilité / manque de confiance",
+        "Confidentialité / sécurité",
+        "Contraintes réglementaires ou contractuelles",
+        "Résistance organisationnelle",
+        "Aucun obstacle majeur",
+        "Autre"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q19",
+      "question": "Depuis l’arrivée de l’IA, quelle place tient votre intuition personnelle ?",
+      "kind": "single",
+      "options": [
+        "Beaucoup moins",
+        "Un peu moins",
+        "À peu près autant",
+        "Un peu plus",
+        "Beaucoup plus",
+        "Sans objet / comparaison impossible"
+      ],
+      "required": false,
+      "section": "Decision"
+    },
+    {
+      "id": "Q20",
+      "question": "Décrivez une décision où l’IA a aidé, modifié ou remis en question le jugement humain. Que s’est-il passé ? (Facultatif, sans données sensibles)",
+      "kind": "long",
+      "options": [],
+      "required": false,
+      "section": "Open"
+    },
+    {
+      "id": "Q21",
+      "question": "Avez-vous déjà ignoré, contredit ou questionné une recommandation de l’IA ? Pourquoi ? (Facultatif)",
+      "kind": "long",
+      "options": [],
+      "required": false,
+      "section": "Open"
+    },
+    {
+      "id": "Q22",
+      "question": "Qu’est-ce qui rendrait les conseils de l’IA plus utiles et dignes de confiance ? (Facultatif)",
+      "kind": "long",
+      "options": [],
+      "required": false,
+      "section": "Open"
+    },
+    {
+      "id": "Q23",
+      "question": "Autres réflexions, préoccupations ou suggestions sur l’IA et les décisions en entreprise ? (Facultatif)",
+      "kind": "long",
+      "options": [],
+      "required": false,
+      "section": "Open"
+    },
+    {
+      "id": "Q24",
+      "question": "Seriez-vous disposé(e) à participer à un entretien facultatif ? Un lien de contact distinct apparaîtra après l’envoi.",
+      "kind": "single",
+      "options": [
+        "Oui — voir le lien de contact",
+        "Peut-être, je déciderai plus tard",
+        "Non merci"
+      ],
+      "required": false,
+      "section": "Open"
+    }
+  ]
+}
