@@ -5,6 +5,6 @@ window.RESEARCH_CONFIG = {
   contactEmail: "vighneshdhanraj.shetty@kedgebs.com",
   retentionPeriod: "12 months",
   controller: "Vighnesh Shetty",
-  privacyContact: "Vighneh Shetty",
+  privacyContact: "Vighnesh Shetty",
   version: "1.0-2026-11"
 };
