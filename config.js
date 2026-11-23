@@ -6,5 +6,6 @@ window.RESEARCH_CONFIG = {
   retentionPeriod: "12 months",
   controller: "Vighnesh Shetty",
   privacyContact: "Vighnesh Shetty",
+  apiBaseUrl: "REPLACE_WITH_CLOUDFLARE_WORKER_URL",
   version: "1.0-2026-11"
 };

@@ -1,0 +1,8 @@
+.wrangler/
+node_modules/
+.dev.vars
+.env
+.env.*
+*.sqlite
+survey-responses.json
+interview-contacts.json

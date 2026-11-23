@@ -1,0 +1,21 @@
+name = "master-thesis-questionnaire-api"
+main = "src/index.js"
+compatibility_date = "2026-11-23"
+
+[vars]
+ALLOWED_ORIGIN = "https://vighnesh-shetty-vs.github.io"
+RETENTION_MONTHS = "12"
+
+[triggers]
+crons = ["17 3 * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "thesis-questionnaire"
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+[[ratelimits]]
+name = "SUBMISSION_LIMITER"
+namespace_id = "9471"
+simple = { limit = 30, period = 60 }
